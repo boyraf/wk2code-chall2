@@ -37,7 +37,6 @@ function YourBotArmy({ onDischargeBot }) {
               <li><span className="bot-damage">Damage:{bot.damage}</span></li>
               <li><span className="bot-armor">Armor:{bot.armor}</span></li>
               <li><span className="bot-class">Class:{bot.bot_class}</span></li>
-              <li><span className="bot-catchphrase">Catchphrase:{bot.catchphrase}</span></li>
               </ul>
 
               <button onClick={() => handleDischargeBot(bot.id)}>Discharge</button>

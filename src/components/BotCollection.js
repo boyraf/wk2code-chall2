@@ -35,8 +35,7 @@ function BotCollection({ onEnlistBot, onBotRelease }) {
             <li><span>Damage:{bot.damage}</span></li>
             <li><span>Armor{bot.armor}</span></li>
             <li><span>Class:{bot.bot_class}</span></li>
-            <li><span>catchphrase:{bot.catchphrase}</span></li>
-            </ul>
+              </ul>
               {bot.enlisted ? (
                 <button disabled>Enlisted</button>
               ) : (
